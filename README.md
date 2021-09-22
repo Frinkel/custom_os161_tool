@@ -14,7 +14,10 @@ Your config file should like like the one below:
 It is worth noting that $HOME or ~/ should not be included in the config file! The path should be excluding the home directory.
 
 ## RUNNING
-To run the application, open a Terminal at the directory to the folder, and run the command ./run.sh.<br/>
+To run the application, open a Terminal and navigate to the os161_scripts folder, then run the command: 
+	
+	./run.sh
+	
 Then type '?' for a list of available command, you should see something like the output below.
 
 	Running local setup.
