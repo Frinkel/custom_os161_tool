@@ -10,7 +10,7 @@ my_root_path=$2
 # Get the path to the current directory
 my_cur_path=$(pwd)
 
-echo "Do you wan to rebuild USERLAND?\ny/n (yes/no)"
+echo "Do you want to rebuild USERLAND?\ny/n (yes/no)"
 read answr
 
 if [ $answr == "y" ]
