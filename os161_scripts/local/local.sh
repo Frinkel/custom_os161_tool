@@ -25,7 +25,7 @@ fi
 my_cur_path=$(pwd)
 
 echo "Welcome to the OS161 shell script!"
-echo "What would you like to do? \"?\" for a list of commands."
+echo "What would you like to do, type \"?\" for a list of commands."
 
 func()
 {
