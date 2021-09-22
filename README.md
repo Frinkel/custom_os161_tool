@@ -33,7 +33,8 @@ Now you're all set, and ready to use the application!
 The application is, as of now, only tested on a macOS Big Sur, version 11.5.2!
 
 ## UPDATES
-We are currently working on the support for ssh connection in the application.
+We are currently working on the support for ssh connection in the application. <br/>
+We are currently testing the application on a Windows machine.
 
 ## CREDITS
 The tool is developed by Joel August Vest Madsen
