@@ -42,7 +42,7 @@ Then type '?' for a list of available commands, you should see something like th
 Now you're all set, and ready to use the application!
 
 ## INFORMATION
-The application is, as of now, only tested on a macOS Big Sur, version 11.5.2!
+The application is, as of now, only tested on a macOS Big Sur, version 11.5.2 and macOS Monterey!
 
 ## CREDITS
 The tool is developed by Joel August Vest Madsen
