@@ -2,7 +2,6 @@
 
 # This shell script is created by Joel A. V. Madsen, for executing actions to the OS161
 
-
 # Load the config library
 . ./config_reader.sh;
 

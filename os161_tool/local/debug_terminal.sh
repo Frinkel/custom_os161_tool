@@ -6,7 +6,6 @@
 echo -n -e "\033]0;OS161 Debug View\007"
 
 
-
 # The following pipe.txt, is a hacky solution to pass arguments to the 
 # new terminal, created when we want to debug OS161
 
