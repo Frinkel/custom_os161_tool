@@ -4,7 +4,7 @@
 
 
 # Load the config library
-source config_reader.sh;
+. ./config_reader.sh;
 
 my_src_path=$HOME"/""$(config_get my_src_path)"
 my_root_path="$HOME""/""$(config_get my_root_path)"
@@ -43,14 +43,16 @@ func()
 		func
 	;;
 	"rec")
+		cd $my_cur_path
 		sh ./recompile.sh $my_src_path $my_root_path
 	;;
 	"db")
-		cd $my_cur_path
-
-		open -a Terminal ./local/debug_terminal.sh # Don't know if this works on windows!
-
 		cd $my_root_path 
+
+		# Open a new terminal for debugging
+		nohup xterm -e "os161-gdb kernel -ex 'target remote unix:$HOME/os161/root/.sockets/gdb'" &
+
+		# Run the OS and wait for the debugger
 		sys161 -w kernel
 
 		func
