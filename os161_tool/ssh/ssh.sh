@@ -6,11 +6,10 @@
 #echo "\033]0;Remote OS161 Tool - by JM\007"
 
 . ./config_reader.sh;
+config_file=config.cfg
 
-#echo $HOME"/""$(config_get my_src_path)"
-
-my_src_path=$HOME"/""$(config_get my_src_path)"
-my_root_path=$HOME"/""$(config_get my_root_path)"
+my_src_path=$HOME"/""$(cfg_read $config_file my_src_path)"
+my_root_path=$HOME"/""$(cfg_read $config_file my_root_path)"
 
 # Get the path to the current directory
 my_cur_path=$(pwd)

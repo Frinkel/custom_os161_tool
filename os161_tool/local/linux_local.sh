@@ -4,9 +4,10 @@
 
 # Load the config library
 . ./config_reader.sh;
+config_file=config.cfg
 
-my_src_path=$HOME"/""$(config_get my_src_path)"
-my_root_path="$HOME""/""$(config_get my_root_path)"
+my_src_path=$HOME"/""$(cfg_read $config_file my_src_path)"
+my_root_path="$HOME""/""$(cfg_read $config_file my_root_path)"
 
 
 # You might want to edit the path, if your tools are not located in ~/tools, as per default!

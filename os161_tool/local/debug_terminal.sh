@@ -14,8 +14,10 @@ cd $script_path; cd ../
 
 # Read from config
 source config_reader.sh;
-my_src_path=$HOME"/""$(config_get my_src_path)"
-my_root_path="$HOME""/""$(config_get my_root_path)"
+config_file=config.cfg
+
+my_src_path=$HOME"/""$(cfg_read $config_file my_src_path)"
+my_root_path="$HOME""/""$(cfg_read $config_file my_root_path)"
 
 
 # Check if $PATH holds the tool path needed to run the OS
