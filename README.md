@@ -27,7 +27,7 @@ To run the application, open a Terminal and navigate to the os161_scripts folder
 	
 	./run.sh
 	
-If your're running the command for the first time, you might have to make it executable, by 
+If your're running this command for the first time, you might have to make it executable, by running: 
 	
 	running chmod +x run.sh
 
