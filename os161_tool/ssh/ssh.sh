@@ -41,7 +41,7 @@ func()
 		cd $my_root_path 
 
 		# Open a new terminal for debugging
-		DISPLAY=127.0.0.1:10.0 
+		#DISPLAY=127.0.0.1:10.0 <- this is apparently not needed?
 		nohup xterm -e "os161-gdb kernel -ex 'target remote unix:$HOME/os161/root/.sockets/gdb'" &
 
 		# Run the OS and wait for the debugger
