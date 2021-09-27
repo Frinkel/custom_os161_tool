@@ -1,4 +1,4 @@
-# Custom OS161 Tool (VERY early version)
+# Custom OS161 Tool (early version)
 This is a custom OS161 tool, written in shell, which provides some quality of life actions, making some of the tedious aspects of working with [ OS161 ] a little easier.
 
 ## UPDATES 25/09/2021
