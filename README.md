@@ -27,6 +27,10 @@ To run the application, open a Terminal and navigate to the os161_scripts folder
 	
 	./run.sh
 	
+If your're running the command for the first time, you might have to make it executable, by 
+	
+	running chmod +x run.sh
+
 Then type '?' for a list of available commands, you should see something like the output below.
 
 	Running local setup.
