@@ -45,6 +45,7 @@ func()
 	"rec")
 		cd $my_cur_path
 		sh ./recompile.sh $my_src_path $my_root_path
+		func
 	;;
 	"db")
 		cd $my_cur_path
